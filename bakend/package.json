@@ -1,0 +1,14 @@
+{
+  "name": "roblox-ai-studio-relay",
+  "version": "1.0.0",
+  "description": "Optional HTTPS relay server for Roblox AI Studio Assistant",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1"
+  }
+}
